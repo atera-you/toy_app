@@ -1,0 +1,5 @@
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/childprocess-2.0.0/ext
+/Users/papapurikaruma/.rbenv/versions/3.0.0/bin/ruby mkrf_conf.rb
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/childprocess-2.0.0/ext
+/Users/papapurikaruma/.rbenv/versions/3.0.0/bin/ruby -I/Users/papapurikaruma/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -rrubygems /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/rake-12.3.3/exe/rake RUBYARCHDIR\=/Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/extensions/x86_64-darwin-18/3.0.0/childprocess-2.0.0 RUBYLIBDIR\=/Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/extensions/x86_64-darwin-18/3.0.0/childprocess-2.0.0

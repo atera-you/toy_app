@@ -1,0 +1,22 @@
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/papapurikaruma/.rbenv/versions/3.0.0/bin/ruby -I /Users/papapurikaruma/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20210206-58005-f8o11m.rb extconf.rb
+creating Makefile
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c:810:7: warning: incompatible pointer types passing 'VALUE (VALUE)' (aka 'unsigned long (unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+      rescue_input_to_storage, Qnil,
+      ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/papapurikaruma/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/internal/iterator.h:51:47: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                                              ^
+1 warning generated.
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/3.0.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210206-58005-ggir1a/bootsnap

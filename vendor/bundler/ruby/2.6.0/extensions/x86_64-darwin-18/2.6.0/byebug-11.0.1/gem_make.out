@@ -1,0 +1,19 @@
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/Users/papapurikaruma/.rbenv/versions/2.6.3/bin/ruby -I /Users/papapurikaruma/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20210206-95941-16xb12r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/papapurikaruma/environment/toy_app/vendor/bundler/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20210206-95941-p4yyac/byebug

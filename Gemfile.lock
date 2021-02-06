@@ -99,7 +99,7 @@ GEM
     mini_portile2 (2.5.0)
     minitest (5.14.3)
     msgpack (1.4.2)
-    nio4r (2.5.4)
+    nio4r (2.5.5)
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
@@ -222,4 +222,4 @@ DEPENDENCIES
   webpacker (= 4.0.7)
 
 BUNDLED WITH
-   2.1.4
+   1.17.2
